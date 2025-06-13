@@ -1,0 +1,132 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fefefe;
+}
+
+.login-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  width: 790px;
+  height: 500px;
+}
+
+.login-content {
+  padding: 40px;
+  width: 392.5px;
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color: #c94e1c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+
+  p {
+    font-size: 13px;
+    color: #7b7b7b;
+    margin-bottom: 30px;
+  }
+
+  label {
+    display: block;
+    font-weight: 600;
+    font-size: 12px;
+    color: #c94e1c;
+    margin-bottom: 6px;
+  }
+
+  input {
+    width: 70%;
+    height: 42px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f1f1f1;
+    padding: 0 16px;
+    font-size: 13px;
+    margin-bottom: 20px;
+
+    &::placeholder {
+      color: #b1b1b1;
+    }
+  }
+
+  .password-wrapper {
+    position: relative;
+    width: 70%;
+
+    input {
+      width: 117%;
+      padding-right: 50px;
+      box-sizing: border-box;
+    }
+    .eye-icon {
+      position: absolute;
+      top: 40%;
+      right: -20px;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  button[type="submit"] {
+    width: 80%;
+    background-color: #c94e1c;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 42px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
+
+.login-image {
+  width: 397.5px;
+  height: 478px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .image-background {
+    width: 355.5px;
+    height: 478px;
+    border-radius: 20px;
+    background-color: #c94e1c;
+    position: absolute;
+    top: 10px;
+    left: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 357px;
+      height: 316px;
+      position: absolute;
+      top: 162px;
+      left: 120px;
+      transform: translateX(-50%);
+    }
+  }
+}
