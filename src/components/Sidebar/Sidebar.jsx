@@ -3,14 +3,14 @@ import { AuthContext } from "../../context/AuthProvider";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FaSignOutAlt, FaUserEdit } from "react-icons/fa";
 import "./Sidebar.scss";
-import tropaLogo from "../assets/icons/tropa-logo.svg";
+import tropaLogo from "../../assets/icons/tropa-logo.svg";
 
-import DashboardIcon from "../assets/icons/dashboard.svg?react";
-import EventosIcon from "../assets/icons/eventos.svg?react";
-import EquipesIcon from "../assets/icons/equipes.svg?react";
-import InscricoesIcon from "../assets/icons/inscricoes.svg?react";
-import AlterarDadosIcon from "../assets/icons/alterardados.svg?react";
-import SairIcon from "../assets/icons/sair.svg?react";
+import DashboardIcon from "../../assets/icons/dashboard.svg?react";
+import EventosIcon from "../../assets/icons/eventos.svg?react";
+import EquipesIcon from "../../assets/icons/equipes.svg?react";
+import InscricoesIcon from "../../assets/icons/inscricoes.svg?react";
+import AlterarDadosIcon from "../../assets/icons/alterardados.svg?react";
+import SairIcon from "../../assets/icons/sair.svg?react";
 
 export default function Sidebar() {
   const location = useLocation();
@@ -27,7 +27,7 @@ export default function Sidebar() {
     <aside className="sidebar">
       <div className="top">
         <div className="logo-wrapper">
-          <img src={tropaLogo} alt="Logo Tropa Digital" className="logo" />
+          <img src={tropaLogo} alt="Logo" />
         </div>
 
         <div className="menu-title">MENU</div>

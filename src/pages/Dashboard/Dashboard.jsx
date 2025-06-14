@@ -1,9 +1,9 @@
 import "./Dashboard.scss";
 import Sidebar from "../../components/Sidebar/Sidebar";
-import EventTable from "../../components/EventTable";
-import NewEventModal from "../../components/NewEventModal";
+import EventTable from "../../components/EventTable/EventTable";
+import NewEventModal from "../../components/NewEventModal/NewEventModal";
 import { useState, useEffect } from "react";
-import ResumoCards from "../../components/ResumoCards";
+import ResumoCards from "../../components/ResumoCards/ResumoCards";
 
 const ITENS_POR_PAGINA = 5;
 
